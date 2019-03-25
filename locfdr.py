@@ -174,7 +174,7 @@ def locfdr(zz, bre = 120, df = 7, pct = 0., pct0 = 1./4, nulltype = 1, type = 0,
 	imax = l.argmax()
 	xmax = x[imax]
 	try:
-		len(pct)
+		len(pct0)
 		pctlo = pct0[0]
 		pctup = pct0[1]
 	except TypeError:
